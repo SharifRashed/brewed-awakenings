@@ -11,6 +11,8 @@ export const Products = () => {
 
     html += "</ul>"
 
+
+
     return html
 }
 

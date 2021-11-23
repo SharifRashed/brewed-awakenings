@@ -88,6 +88,8 @@ const database = {
     }, {
         id: 10, name: "Cappucino", price: 12.49
     }],
+
+
     orders: [{
         id: 1, productId: 10, employeeId: 5, timestamp: 1613538111396
     }, {
@@ -126,14 +128,14 @@ const database = {
 }
 
 export const getProducts = () => {
-    return database.products.map(product => ({...product}))
+    return database.products.map(product => ({ ...product }))
 }
 
 export const getEmployees = () => {
-    return database.employees.map(employee => ({...employee}))
+    return database.employees.map(employee => ({ ...employee }))
 }
 
 export const getOrders = () => {
-    return database.orders.map(order => ({...order}))
+    return database.orders.map(order => ({ ...order }))
 }
 
